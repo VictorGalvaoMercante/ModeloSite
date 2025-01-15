@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC Contabilidade</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <p class="letter">A</p>
+            <p class="letter">B</p>
+            <p class="letter">C</p>
+            <p class="contabilidade-letter">CONTABILIDADE</p>
+        </div>
+        <div class="hamburger-menu" onclick="toggleMenu()">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <nav class="btn-header">
+            <a href="#home">Home</a>
+            <a href="#about">Sobre Nós</a>
+            <a href="#services">Serviços</a>
+            <a href="#plans">Planos</a>
+            <a href="#contact">Fale Conosco</a>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Soluções Contábeis Sob Medida para Sua Empresa</h1>
+            <p>Transformamos a contabilidade em uma experiência simples e eficiente. Reduza custos e mantenha seu negócio em conformidade com as melhores práticas do mercado.</p>
+            <a href="#contact" class="btn-cta">Solicitar Consultoria Gratuita</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>Sobre Nós</h2>
+        <p>Na ABC Contabilidade, nosso objetivo é oferecer soluções inovadoras e personalizadas para empresas de todos os portes. Com anos de experiência, nossa equipe garante excelência, transparência e resultados sólidos.</p>
+        <ul id="itens">
+            <li class="about-item">🔒 Segurança e transparência.</li>
+            <li class="about-item">👥 Trabalho em equipe.</li>
+            <li class="about-item">📊 Resultados e excelência.</li>
+        </ul>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Nossos Serviços</h2>
+        <div class="service-cards">
+            <div class="service-card">
+                <h3>Consultoria Contábil</h3>
+                <p>Planejamento estratégico para otimizar seus resultados financeiros.</p>
+            </div>
+            <div class="service-card">
+                <h3>Gestão Fiscal</h3>
+                <p>Evite erros fiscais e mantenha sua empresa em conformidade com as leis.</p>
+            </div>
+            <div class="service-card">
+                <h3>Folha de Pagamento</h3>
+                <p>Automatização e controle para garantir segurança aos seus colaboradores.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="plans" class="plans">
+        <h2>Planos e Preços</h2>
+        <div class="plan-cards">
+            <div class="plan-card">
+                <h3>Básico</h3>
+                <p>Ideal para pequenas empresas</p>
+                <span class="price">R$ 299/mês</span>
+            </div>
+            <div class="plan-card featured">
+                <h3>Profissional</h3>
+                <p>Para empresas em crescimento</p>
+                <span class="price">R$ 499/mês</span>
+            </div>
+            <div class="plan-card">
+                <h3>Avançado</h3>
+                <p>Para grandes corporações</p>
+                <span class="price">R$ 999/mês</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Fale Conosco</h2>
+        <p>Entre em contato e descubra como podemos ajudar sua empresa a crescer.</p>
+        <form action="submit-form.php" method="post">
+            <input type="text" name="name" placeholder="Seu Nome" required>
+            <input type="email" name="email" placeholder="Seu E-mail" required>
+            <textarea name="message" rows="5" placeholder="Sua Mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2025 ABC Contabilidade. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        // Função para alternar o menu
+        function toggleMenu() {
+            const menu = document.querySelector('.btn-header');
+            menu.classList.toggle('active');
+        }
+
+        // Adiciona uma classe 'scrolled' quando o usuário rolar a página
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+</html>
