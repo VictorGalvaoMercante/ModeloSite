@@ -61,6 +61,11 @@
     .about p {
         font-size: 16px;
     }
+    header .btn-header {
+        display: none;
+        gap: 20px;
+        animation: slideInRight 1s ease;
+    }
 
   
 }
