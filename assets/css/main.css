@@ -63,7 +63,7 @@ body {
     font-size: 18px;
     margin-bottom: 30px;
     line-height: 1.8;
-    animation: fadeInUp 1s ease;
+    animation: fadeInUp 3s ease;
 }
 
 .hero .btn-cta {
@@ -77,6 +77,11 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     animation: pulse 2s infinite;
+}
+
+.hero .btns{
+    display: flex;
+    flex-direction: column;
 }
 
 .hero .btn-cta:hover {
