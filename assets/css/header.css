@@ -17,6 +17,7 @@ header .logo-container {
     align-items: baseline;
     gap: 10px;
     animation: slideInLeft 1s ease;
+    cursor: pointer;
 }
 
 header .letter {
