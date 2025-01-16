@@ -52,19 +52,7 @@ header .btn-header a:hover {
     color: #007bff;
 }
 
-/* Estilos do header */
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 40px;
-    background: linear-gradient(90deg, #007bff, #0056b3);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    font-family: 'Montserrat', sans-serif;
-}
+
 
 header .logo-container {
     display: flex;
@@ -83,7 +71,6 @@ header .contabilidade-letter {
     font-weight: bold;
     color: #e9ecef;
 }
-
 
 
 
