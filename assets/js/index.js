@@ -9,4 +9,3 @@ function toggleLink() {
     const menu = document.querySelector('.btn-header'); 
     menu.classList.remove('active');  
 }
-

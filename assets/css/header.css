@@ -22,21 +22,21 @@ header .logo-container {
 header .letter {
     font-size: 36px;
     font-weight: bold;
-    color: #1b1b1b;
+    color: #ffffff;
 }
 
 header .contabilidade-letter {
     font-size: 18px;
     font-weight: bold;
-    color: #e9ecef;
+    color: #0303038a;
 }
 
 header .btn-header {
     display: flex;
     gap: 20px;
-
-    width: 80%;
+    width: auto; 
     animation: slideInRight 1s ease;
+    white-space: nowrap; 
 }
 
 header .btn-header a {
@@ -54,29 +54,6 @@ header .btn-header a:hover {
     color: #007bff;
 }
 
-
-
-header .logo-container {
-    display: flex;
-    align-items: baseline;
-    gap: 10px;
-}
-
-header .letter {
-    font-size: 36px;
-    font-weight: bold;
-    color: #fff;
-}
-
-header .contabilidade-letter {
-    font-size: 18px;
-    font-weight: bold;
-    color: #e9ecef;
-}
-
-
-.align-menu{
-
+.align-menu {
     width: 100%;
 }
-
