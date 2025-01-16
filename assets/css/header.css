@@ -22,7 +22,7 @@ header .logo-container {
 header .letter {
     font-size: 36px;
     font-weight: bold;
-    color: #fff;
+    color: #1b1b1b;
 }
 
 header .contabilidade-letter {
@@ -34,6 +34,8 @@ header .contabilidade-letter {
 header .btn-header {
     display: flex;
     gap: 20px;
+
+    width: 80%;
     animation: slideInRight 1s ease;
 }
 
@@ -73,5 +75,8 @@ header .contabilidade-letter {
 }
 
 
+.align-menu{
 
+    width: 100%;
+}
 
