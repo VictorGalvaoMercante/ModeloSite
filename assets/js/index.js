@@ -19,6 +19,23 @@ function scrollToTop() {
     });
 }
 
+document.addEventListener("DOMContentLoaded", () => {
+    const hiddenElements = document.querySelectorAll(".hidden");
+
+    const revealOnScroll = () => {
+        hiddenElements.forEach((el) => {
+            const rect = el.getBoundingClientRect();
+            if (rect.top < window.innerHeight - 100) {
+                el.classList.add("show");
+            }
+        });
+    };
+
+    window.addEventListener("scroll", revealOnScroll);
+
+    revealOnScroll();
+});
+
 
 const modal = document.getElementById("modal");
 const closeBtn = document.querySelector(".close-btn");
