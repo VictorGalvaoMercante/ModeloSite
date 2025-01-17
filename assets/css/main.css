@@ -254,7 +254,7 @@ body {
 
 .contact {
     padding: 80px 20px;
-    background-color: #ffffff;
+    background-color: #000000d7;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
@@ -262,6 +262,11 @@ body {
 .contact p {
     margin-top: 10px;
     margin-bottom: 30px;
+    color: white;
+}
+
+.contact h2{
+    color: white;
 }
 
 .contact form {
