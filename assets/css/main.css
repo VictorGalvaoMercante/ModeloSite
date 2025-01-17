@@ -89,6 +89,14 @@ body {
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
 }
 
+.hero img{
+    display: none;
+
+}
+
+
+
+
 .about-item{
     font-family: 'Montserrat', sans-serif;
     animation: fadeInUp 3s ease;

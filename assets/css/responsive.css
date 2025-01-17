@@ -1,14 +1,15 @@
-
-@media(max-width:370px){
+@media(max-width:370px) {
 
     header .letter {
         font-size: 15pt;
-       
+
     }
-    header .contabilidade-letter{
+
+    header .contabilidade-letter {
         font-size: 10pt;
     }
-    header .hamburger-menu{
+
+    header .hamburger-menu {
         position: absolute;
         top: 2%;
         left: 4%;
@@ -37,314 +38,324 @@
         font-size: 14px;
         padding: 8px 10px;
     }
-    header .hamburger-menu{
+
+    header .hamburger-menu {
         position: absolute;
         top: 32%;
         left: 4%;
 
     }
-.hero .btn-cta{
-    margin-top: 100px;
-}
-    
-    .hero {
-        min-height:100vh;
-        padding: 30px 15px;
-        clip-path: none;
-        justify-content: flex-start;
 
-    }
+    .hero img {
+        display: block;
+        margin: 20% auto 0 auto;
+        height: 40vh;
+        width: 100%;
+        object-fit: cover;
 
-    .hero .hero-content h1 {
-        margin-top: 10%;
-        font-size: 28pt;
-        line-height: 1.4;
-        text-align: left;
-    }
+        .hero .btn-cta {
+            margin-top: 100px;
+        }
 
-    .hero .hero-content p {
-        font-size: 14pt;
-        line-height: 1.6;
-        text-align: left;
-    }
+        .hero {
+            min-height: 100vh;
+            padding: 30px 15px;
+            clip-path: none;
+            justify-content: flex-start;
 
-    .hero .hero-content .btn-cta {
-        border-radius: 5px 5px 5px 5px;
-        font-size: 14px;
-        padding: 10px 20px;
-    }
+        }
 
-    .about p {
-        font-size: 14px;
-        line-height: 1.6;
-    }
+        .hero .hero-content h1 {
+            margin-top: 10%;
+            font-size: 28pt;
+            line-height: 1.4;
+            text-align: left;
+        }
 
-    .about ul {
-        padding-left: 20px;
-        text-align: left;
-    }
+        .hero .hero-content p {
+            font-size: 14pt;
+            line-height: 1.6;
+            text-align: left;
+        }
 
-    .about-item {
-        font-size: 14px;
-        margin-bottom: 10px;
-    }
+        .hero .hero-content .btn-cta {
+            border-radius: 1px 1px 1px 1px;
+            font-size: 14px;
+            padding: 10px 20px;
+        }
 
-    .service-cards {
-        grid-template-columns: 1fr;
-        gap: 15px;
-    }
+        .about p {
+            font-size: 14px;
+            line-height: 1.6;
+        }
 
-    .service-card {
-        padding: 20px;
-    }
+        .about ul {
+            padding-left: 20px;
+            text-align: left;
+        }
 
-    .service-card h3 {
-        font-size: 18px;
-    }
+        .about-item {
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
 
-    .service-card p {
-        font-size: 14px;
-    }
+        .service-cards {
+            grid-template-columns: 1fr;
+            gap: 15px;
+        }
 
-    .plan-cards {
-        flex-direction: column;
-        gap: 15px;
-    }
+        .service-card {
+            padding: 20px;
+        }
 
-    .plan-card {
-        padding: 20px;
-    }
+        .service-card h3 {
+            font-size: 18px;
+        }
 
-    .plan-card h3 {
-        font-size: 18px;
-    }
+        .service-card p {
+            font-size: 14px;
+        }
 
-    .plan-card p {
-        font-size: 14px;
-    }
+        .plan-cards {
+            flex-direction: column;
+            gap: 15px;
+        }
 
-    .price {
-        font-size: 18px;
-    }
+        .plan-card {
+            padding: 20px;
+        }
 
-    .contact p {
-        font-size: 14px;
-    }
+        .plan-card h3 {
+            font-size: 18px;
+        }
 
-    .contact form {
-        gap: 10px;
-    }
-    
-    .contact form input,
-    .contact form textarea {
-        font-size: 14px;
-        padding: 12px;
-    }
+        .plan-card p {
+            font-size: 14px;
+        }
 
-    .contact form button {
-        font-size: 16px;
-        padding: 12px;
-    }
-    
-    footer {
-        padding: 10px;
-        font-size: 12px;
-    }
-}
+        .price {
+            font-size: 18px;
+        }
 
+        .contact p {
+            font-size: 14px;
+        }
 
-@media (max-width: 480px) {
-    header {
-        padding: 10px;
-    }
+        .contact form {
+            gap: 10px;
+        }
 
-    header .logo-container {
-        justify-content: center;
-        text-align: center;
-        margin-bottom: 15px;
-    }
+        .contact form input,
+        .contact form textarea {
+            font-size: 14px;
+            padding: 12px;
+        }
 
-    header .btn-header {
-        flex-direction: column;
-        gap: 10px;
-        text-align: center;
-    }
+        .contact form button {
+            font-size: 16px;
+            padding: 12px;
+        }
 
-    header .btn-header a {
-        font-size: 14px;
-        padding: 8px 10px;
-    }
-
-    #itens {
-        text-align: center;
-        font-family: 'Montserrat', sans-serif;
-    }
-
-    .hero {
-        height: auto;
-        padding: 30px 15px;
-        text-align: center;
-    }
-
-    .hero h1 {
-        font-size: 22px;
-    }
-
-    .hero p {
-        font-size: 14px;
-    }
-
-    .hero .btn-cta {
-        font-size: 14px;
-        padding: 10px 20px;
-    }
-
-    .about p {
-        font-size: 14px;
-    }
-}
-@media (max-width: 1200px) {
-    header {
-        padding: 15px 30px;
-    }
-
-    header .btn-header {
-        gap: 15px;
-    }
-
-    .hero h1 {
-        font-size: 40px;
-    }
-
-    .hero p {
-        font-size: 16px;
-    }
-
-    .services h2,
-    .plans h2,
-    .about h2,
-    .contact h2 {
-        font-size: 30px;
-    }
-}
-
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    header .logo-container {
-        margin-bottom: 10px;
-       
-    }
-
-    header .btn-header {
-        flex-wrap: wrap;
-        gap: 10px;
-        justify-content: center;
+        footer {
+            padding: 10px;
+            font-size: 12px;
+        }
     }
 
 
-    .hero {
-        height: auto;
-        padding: 40px 20px;
+    @media (max-width: 480px) {
+        header {
+            padding: 10px;
+        }
+
+        header .logo-container {
+            justify-content: center;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        header .btn-header {
+            flex-direction: column;
+            gap: 10px;
+            text-align: center;
+        }
+
+        header .btn-header a {
+            font-size: 14px;
+            padding: 8px 10px;
+        }
+
+        #itens {
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .hero {
+            height: auto;
+            padding: 30px 15px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 22px;
+        }
+
+        .hero p {
+            font-size: 14px;
+        }
+
+        .hero .btn-cta {
+            font-size: 14px;
+            padding: 10px 20px;
+        }
+
+        .about p {
+            font-size: 14px;
+        }
     }
 
-    .hero h1 {
-        font-size: 32px;
+    @media (max-width: 1200px) {
+        header {
+            padding: 15px 30px;
+        }
+
+        header .btn-header {
+            gap: 15px;
+        }
+
+        .hero h1 {
+            font-size: 40px;
+        }
+
+        .hero p {
+            font-size: 16px;
+        }
+
+        .services h2,
+        .plans h2,
+        .about h2,
+        .contact h2 {
+            font-size: 30px;
+        }
     }
 
-    .hero p {
-        font-size: 14px;
+    @media (max-width: 768px) {
+        header {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        header .logo-container {
+            margin-bottom: 10px;
+
+        }
+
+        header .btn-header {
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+
+
+        .hero {
+            height: auto;
+            padding: 40px 20px;
+        }
+
+        .hero h1 {
+            font-size: 32px;
+        }
+
+        .hero p {
+            font-size: 14px;
+        }
+
+        .hero .btn-cta {
+            font-size: 14px;
+            padding: 7px 5px;
+        }
+
+        .service-cards {
+            grid-template-columns: 1fr;
+        }
+
+        .plan-cards {
+            flex-direction: column;
+        }
+
+        .plan-card {
+            margin-bottom: 20px;
+        }
+
+        .about p {
+            font-size: 16px;
+        }
+
+        header .btn-header {
+            display: none;
+            gap: 20px;
+            animation: slideInRight 1s ease;
+        }
+
+
     }
 
-    .hero .btn-cta {
-        font-size: 14px;
-        padding: 7px 5px;
-    }
-
-    .service-cards {
-        grid-template-columns: 1fr;
-    }
-
-    .plan-cards {
-        flex-direction: column;
-    }
-
-    .plan-card {
-        margin-bottom: 20px;
-    }
-
-    .about p {
-        font-size: 16px;
-    }
-
-    header .btn-header {
-        display: none;
-        gap: 20px;
-        animation: slideInRight 1s ease;
-    }
-
-
-}
 
 
 
 
-
-
-.hamburger-menu {
-    display: none;
-    cursor: pointer;
-    justify-content: flex-start;
-    flex-direction: column;
-
-    gap: 5px;
-    width: 30px;
-    height: 25px;
-}
-
-.align-menu {
-    width: 100%;
-}
-
-@media (max-width: 768px) {
-
-  
 
     .hamburger-menu {
-        display: flex;
-        order: 1;
-    }
-
-    .btn-header {
         display: none;
+        cursor: pointer;
+        justify-content: flex-start;
         flex-direction: column;
-        position: absolute;
-        top: 105px;
-        right: 0;
-        background-color: #007bff;
-        width: 200px;
-        border-radius: 10px;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-        padding: 10px;
+
+        gap: 5px;
+        width: 30px;
+        height: 25px;
     }
 
-    .btn-header a {
-        padding: 10px 15px;
-        text-align: center;
+    .align-menu {
+        width: 100%;
     }
 
-    .btn-header.active {
-        display: flex;
+    @media (max-width: 768px) {
+
+
+
+        .hamburger-menu {
+            display: flex;
+            order: 1;
+        }
+
+        .btn-header {
+            display: none;
+            flex-direction: column;
+            position: absolute;
+            top: 105px;
+            right: 0;
+            background-color: #007bff;
+            width: 200px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+        }
+
+        .btn-header a {
+            padding: 10px 15px;
+            text-align: center;
+        }
+
+        .btn-header.active {
+            display: flex;
+        }
+    }
+
+    .hamburger-menu .bar {
+        height: 4px;
+        width: 100%;
+        background-color: #fff;
+        border-radius: 2px;
     }
 }
-
-.hamburger-menu .bar {
-    height: 4px;
-    width: 100%;
-    background-color: #fff;
-    border-radius: 2px;
-}
-
