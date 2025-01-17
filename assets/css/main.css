@@ -273,7 +273,7 @@ body {
 }
 
 .contact form input,
-.contact form textarea {
+.contact form textarea , select {
     padding: 15px;
     font-size: 16px;
     border-radius: 10px;
@@ -288,7 +288,7 @@ body {
     outline: none;
 }
 
-.contact form button {
+.contact form button , .btn-whats {
     padding: 15px;
     font-size: 18px;
     color: #fff;
@@ -297,7 +297,52 @@ body {
     border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    
 }
+
+.btn-whats{
+    display: flex;
+    text-align: center;
+    
+}
+.btn-whats a{
+    color: white;
+    text-decoration: none;
+   
+}
+
+.btn-whats img{
+    display: flex;
+    height: 3vh;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.btn-whats {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #25D366; 
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.btn-whats:hover {
+    background-color: #1EBE57; 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px); 
+}
+
+
+
+
 
 .contact form button:hover {
     background-color: #0056b3;
