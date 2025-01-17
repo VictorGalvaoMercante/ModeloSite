@@ -15,6 +15,10 @@
         left: 4%;
 
     }
+    .modal-content {
+        position: relative; 
+    
+    }
 }
 
 @media (max-width: 480px) {
@@ -24,6 +28,11 @@
         max-width: 350px; 
         padding: 15px; 
         font-size: 14px; 
+    }
+
+    .modal-content {
+        position: relative; 
+    
     }
 
     .modal-content h2 {
@@ -274,6 +283,10 @@
     }
 
     @media (max-width: 1200px) {
+        .modal-content {
+            position: relative; 
+        
+        }
         header {
             padding: 15px 30px;
         }
@@ -299,6 +312,10 @@
     }
 
     @media (max-width: 768px) {
+        .modal-content {
+            position: relative; 
+        
+        }
         header {
             flex-direction: column;
             text-align: center;

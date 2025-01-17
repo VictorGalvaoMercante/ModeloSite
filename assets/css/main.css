@@ -395,6 +395,7 @@ footer {
     cursor: pointer; 
     color: #ff0000; 
     z-index: 10; 
+    animation: zoomIn 3s ease;
 }
 
 .modal-content {
