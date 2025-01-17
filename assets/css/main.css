@@ -383,19 +383,24 @@ footer {
     max-width: 400px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 
-    animation: zoomIn 3s;
 }
 
 
 .close-btn {
-    position: absolute;
-    top: 10px;
-    right: 15px;
-    font-size: 20px;
-    font-weight: bold;
-    cursor: pointer;
+    position: absolute; 
+    top: 10px; 
+    right: 15px; /
+    font-size: 20px; 
+    font-weight: bold; 
+    cursor: pointer; 
+    color: #ff0000; 
+    z-index: 10; 
 }
 
+.modal-content {
+    position: relative; 
+
+}
 .close-btn:hover {
     color: #007bff;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
