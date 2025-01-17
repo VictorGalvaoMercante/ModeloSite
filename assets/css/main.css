@@ -371,7 +371,6 @@ footer {
     z-index: 9999;
     justify-content: center;
     align-items: center;
-    animation: zoomIn 3s ease;
 }
 
 
@@ -383,6 +382,7 @@ footer {
     width: 90%;
     max-width: 400px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: zoomIn 3s ease;
 
 }
 
