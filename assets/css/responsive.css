@@ -18,6 +18,7 @@
 }
 
 @media (max-width: 480px) {
+
     header {
         padding: 10px;
     }
@@ -46,16 +47,32 @@
 
     }
 
+    .hero .hero-content a{
+        border-radius: 5px 5px 5px 5px;
+    }
+    .about .about-link{
+        padding: 5px;
+        margin-top: 10%;
+    }
+    
+    .about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+    }
     .hero img {
         display: block;
         margin: 20% auto 0 auto;
         height: 40vh;
         width: 100%;
         object-fit: cover;
+        animation: bounceIn 2s ease;
 
         .hero .btn-cta {
             margin-top: 100px;
         }
+
 
         .hero {
             min-height: 100vh;
@@ -84,21 +101,28 @@
             padding: 10px 20px;
         }
 
+        
+
         .about p {
             font-size: 14px;
             line-height: 1.6;
         }
 
+        
         .about ul {
             padding-left: 20px;
             text-align: left;
         }
-
+        
         .about-item {
             font-size: 14px;
             margin-bottom: 10px;
         }
-
+        
+        .services h2{
+            margin-top: 100px;
+        }
+       
         .service-cards {
             grid-template-columns: 1fr;
             gap: 15px;
