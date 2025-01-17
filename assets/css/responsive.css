@@ -313,9 +313,9 @@
 
     @media (max-width: 768px) {
         .modal-content {
-            position: relative; 
-        
-        }
+    position: relative; 
+
+}
         header {
             flex-direction: column;
             text-align: center;
