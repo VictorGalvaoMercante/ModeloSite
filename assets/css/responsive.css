@@ -19,6 +19,36 @@
 
 @media (max-width: 480px) {
 
+    .modal-content {
+        width: 90%; 
+        max-width: 350px; 
+        padding: 15px; 
+        font-size: 14px; 
+    }
+
+    .modal-content h2 {
+        font-size: 18px; 
+        margin-bottom: 10px; 
+    }
+
+    .modal-content p {
+        font-size: 14px; 
+        margin-bottom: 15px;
+    }
+
+    .btn-whats {
+        font-size: 14px; 
+        padding: 8px 16px; 
+    }
+
+    .close-btn {
+        font-size: 18px; 
+        top: 8px; 
+        right: 10px;
+    }
+
+
+
     header {
         padding: 10px;
     }
@@ -235,6 +265,11 @@
 
         .about p {
             font-size: 14px;
+        }
+
+        .service-card{
+            padding: 50px;
+
         }
     }
 
