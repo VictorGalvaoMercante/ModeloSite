@@ -55,6 +55,9 @@
     .services h2{
         margin-top: -100px;
     }
+    .services{
+        background-color: white;
+    }
 
     .modal-content {
         width: 90%; 
@@ -128,11 +131,16 @@
     }
     
     .about {
+ 
         margin-top: 15%;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: 100vh;
+        mmin-height: 100vh;
+    }
+
+    .about h3, #text{
+        display: none;
     }
     .hero img {
         display: block;
@@ -196,40 +204,41 @@
             grid-template-columns: 1fr;
             gap: 15px;
         }
-
+        
         .service-card {
-            padding: 20px;
+            padding: 10px;
         }
-
+        
         .service-card h3 {
             font-size: 18px;
         }
-
+        
         .service-card p {
             font-size: 14px;
         }
-
+        
         .plan-cards {
             flex-direction: column;
             gap: 15px;
         }
-
+        
         .plan-card {
             padding: 20px;
         }
-
+        
         .plan-card h3 {
             font-size: 18px;
         }
-
+        
         .plan-card p {
             font-size: 14px;
         }
-
+        
         .price {
             font-size: 18px;
         }
-
+        
+       
         .contact p {
             font-size: 14px;
         }
