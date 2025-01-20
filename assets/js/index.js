@@ -10,6 +10,21 @@ function toggleLink() {
     menu.classList.remove('active');  
 }
 
+const planCards = document.querySelectorAll('.plan-card');
+
+function addFeaturedClass(event) {
+    event.target.classList.add('featured');
+}
+
+function removeFeaturedClass(event) {
+    event.target.classList.remove('featured');
+}
+
+planCards.forEach(card => {
+    card.addEventListener('mouseenter', addFeaturedClass);
+    card.addEventListener('mouseleave', removeFeaturedClass);
+});
+
 
 
 function scrollToTop() {
@@ -35,6 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     revealOnScroll();
 });
+
 
 
 const modal = document.getElementById("modal");
