@@ -1,5 +1,30 @@
 @media(max-width:370px) {
 
+    .about h2{
+        margin-top: 130%;
+    }
+
+    .highlights-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 13px;
+        margin-bottom: 100%;
+    }
+    
+    .highlight-item {
+        background: #fff;
+        border: 1px solid #ddd;
+        padding: 5px;
+   
+    }
+    .orcamento{
+        display: none;
+    }
+   .services .service-card{
+        padding:30px;
+    }
+    
+
     header .letter {
         font-size: 15pt;
 
@@ -18,6 +43,10 @@
     .modal-content {
         position: relative; 
         
+    }
+
+    .plans h2{
+        margin-top: -40%;
     }
 }
 

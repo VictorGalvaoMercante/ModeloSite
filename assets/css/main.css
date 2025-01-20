@@ -519,5 +519,6 @@ footer {
 }
 
 .btn-cta:hover {
+    color: white;
     background-color: #0056b3;
 }

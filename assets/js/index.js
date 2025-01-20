@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const revealOnScroll = () => {
         hiddenElements.forEach((el) => {
             const rect = el.getBoundingClientRect();
-            if (rect.top < window.innerHeight - 100) {
+            if (rect.top < window.innerHeight - 10) {
                 el.classList.add("show");
             }
         });
